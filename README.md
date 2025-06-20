@@ -34,7 +34,6 @@ The system predicts the ideal audience **based on AI simulation (Gemini)** train
 -   🧠 **Gemini AI (Gemini 1.5)** – simulating AI responses
 -   🧪 **Google Colab** – for testing model logic
 -   🌐 **Google Sites** – for a simple front-end interface
--   🔄 **Zapier** – automating the workflow
 -   🐍 **Python** – used in Gemini prompts
 -   🧰 **No-Code approach** throughout the system
 
@@ -58,7 +57,7 @@ The system predicts the ideal audience **based on AI simulation (Gemini)** train
 -   I had no access to a laptop or full coding environment
 -   Constant copy-paste errors while using Colab on mobile
 -   No experience with Google Cloud before this hackathon
--   Learning to use AI tools like Gemini and Zapier from scratch
+-   Learning to use AI tools like Gemini from scratch
 
 ---
 
@@ -91,8 +90,9 @@ All agents interact to mimic a distributed agent system, using no-code AI tools 
 -   📋 [Google Form (Enter your product)](https://forms.gle/138KmV52ESevrVWu8)
 -   📊 [Sheet (training dataset)](https://docs.google.com/spreadsheets/d/1w0leGgsl2ez_-FQwGZPlBbXLYm3MWIz62E6XFjx6Cks/edit?usp=drivesdk)
 -   🌐 [Live Site](https://sites.google.com/view/targetboostai/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9)
+-   🎥 [Demo Video](https://youtube.com/shorts/BTPsRSKK64c?si=VF44uLTglF3XoP-T)
 -   💾 [Colab Code](https://colab.research.google.com/drive/1HXRFdO3tDLzANGUF4mV36KkZaoU4tXlf?usp=sharing)
-    (I don't have the video or presentation PDF links, so I removed them)
+-   📁 [Presentation PDF](https://drive.google.com/file/d/1S6Zejym-KxcqsrvVn7qBPb5aaqT7k7Yu/view?usp=drivesdk)
 
 ---
 
