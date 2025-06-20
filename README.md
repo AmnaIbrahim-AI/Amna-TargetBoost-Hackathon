@@ -1,43 +1,113 @@
-   # TargetBoost AI: Smart Audience Targeting for Restricted Regions
+# 🎯 TargetBoost AI
 
-## Project Overview
-TargetBoost AI is an innovative solution designed to empower entrepreneurs in countries with limited advertising access (e.g., due to geo-restrictions or lack of local ad platforms). Our tool helps them identify and target precise customer segments by analyzing product descriptions and leveraging AI-driven insights, even without traditional advertising methods or large budgets.
+**No budget? No ads? No problem.**
+TargetBoost AI is a smart assistant that helps entrepreneurs in restricted countries like Sudan reach their ideal audience—**without paid ads or technical background**.
 
-## The Challenge
-Entrepreneurs in restricted regions often face significant hurdles in reaching their target customers. Traditional advertising platforms might be inaccessible, too expensive, or lack local relevance. Our project aims to bridge this gap by providing an intelligent, accessible, and cost-effective audience targeting mechanism.
+---
 
-## Development Journey & Adaptation (Code to No-Code)
+## 🚀 Why I Built This
 
-Our project began with ambitions for a fully code-based solution, utilizing Python and Google Cloud AI services. This Colab notebook (`TargetBoost_AI_Initial_Code.ipynb`) demonstrates our initial programming efforts, including:
-* Setting up the development environment.
-* Installing necessary Google Cloud and Generative AI libraries (e.g., `google-cloud-aiplatform`, `google-generativeai`).
-* Initial attempts at data processing and API integration.
+Sudan and many other countries are banned from using ad platforms like Meta and Google Ads. Most entrepreneurs in these places can't afford premium tools.
+As a beginner in AI and digital marketing, I joined the [Google Cloud ADK Hackathon](https://googlecloudmultiagents.devpost.com/) to learn how AI can solve this problem.
 
-However, we encountered significant technical challenges during this phase, primarily due to:
-* **Mobile Environment Limitations:** Developing and debugging complex Python code directly on a mobile phone proved to be highly challenging.
-* **Persistent Copy-Pasting Issues:** Frequent and frustrating problems with copying and pasting code snippets severely hindered our development pace.
+---
 
-These practical limitations led us to make a strategic pivot. We decided to implement the core logic of TargetBoost AI using a robust **no-code methodology**, simulating the functionality of an Agent Development Kit (ADK) through accessible Google tools.
+## 🧠 How It Works
 
-## No-Code Solution Architecture
+This is a simplified **multi-agent system** using Google tools:
 
-Our adapted solution leverages the power of Google's ecosystem to provide a functional and effective audience targeting tool without extensive coding:
+| Agent           | Function                                                |
+| :-------------- | :------------------------------------------------------ |
+| 🟢 **Form Agent** | Collects product descriptions using Google Forms          |
+| 🟡 **Sheet Agent** | Stores and manually labels training data in Google Sheets |
+| 🔵 **Gemini Agent** | Analyzes input and gives smart targeting recommendations |
 
-1.  **Data Collection (Google Forms):** Entrepreneurs submit their product descriptions and business details through a user-friendly Google Form. This form acts as the initial data input mechanism, replacing a complex coded frontend.
-    * **Live Google Form:** https://docs.google.com/forms/d/e/1FAIpQLSfU3J4QcSin-9E7NphZnfUT4pmH6e1K24C_yYef47FYCibOQg/viewform?usp=header
+The system predicts the ideal audience **based on AI simulation (Gemini)** trained on real, labeled examples.
 
-2.  **Data Management (Google Sheets):** All submissions from the Google Form is automatically compiled and structured in a Google Sheet. This serves as our backend database, making data easily accessible and manageable.
+---
 
-3.  **AI-Powered Analysis (Gemini AI):** Gemini AI is used to analyze the product descriptions and other submitted data. Through direct interaction (or simple scripts/add-ons), Gemini effectively acts as:
-    * **Audience Identifier:** Extracts key attributes, target demographics, and psychographics from the product description.
-    * **Persona Refiner:** Develops detailed buyer personas based on the extracted insights.
-    * **Recommendation Agent:** Generates actionable recommendations for marketing angles, messaging, and platforms best suited for the identified audience.
+## 🛠 Tools I Used
 
-4.  **Demonstration:** The output from Gemini AI (audience insights and recommendations) is then used by the entrepreneur to refine their marketing strategy manually, or could be presented back via a simple interface (e.g., Google Sites) if further integration was pursued.
+-   🧩 **Google Cloud**
+-   📝 **Google Forms** – for collecting product descriptions
+-   📊 **Google Sheets** – for storing and labeling data
+-   🧠 **Gemini AI (Gemini 1.5)** – simulating AI responses
+-   🧪 **Google Colab** – for testing model logic
+-   🌐 **Google Sites** – for a simple front-end interface
+-   🔄 **Zapier** – automating the workflow
+-   🐍 **Python** – used in Gemini prompts
+-   🧰 **No-Code approach** throughout the system
 
-## Impact
-TargetBoost AI empowers entrepreneurs in challenging environments by providing them with critical market insights and targeting strategies, enabling them to reach their audience effectively and grow their businesses despite traditional limitations. This project demonstrates resilience and innovation in utilizing available resources to solve real-world problems.
+---
 
-## Files in this Repository
-* `TargetBoost_AI_Initial_Code.ipynb`: This Google Colab notebook showcases our initial programming attempts and details our strategic pivot to a no-code solution.
-* `README.md`: This file provides an overview of the project, its architecture, and development journey.
+## 📸 Screenshots
+
+| Step                                          | Screenshot                                                                                                                          |
+| :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. Google Form used to collect product descriptions | !\[Google Form Input](./assets/google_form_input.jpg)                                                                                |
+| 2. Google Sheet showing manual labeling          | !\[Google Sheet Data](./assets/google_sheet_data.jpg)                                                                                  |
+| 3. Google Colab example                        | !\[Colab Example](./assets/colab_example.jpg)                                                                                            |
+| 4. Gemini prompt & output                      | !\[Gemini Full Output](./assets/gemini_full_output.jpg)                                                                                |
+| 5. Final front-end on Google Sites             | !\[Google Sites Final](./assets/google_sites_final.jpg)                                                                                |
+
+---
+
+## 🧱 Challenges I Faced
+
+-   I built the entire project using **only my phone**
+-   I had no access to a laptop or full coding environment
+-   Constant copy-paste errors while using Colab on mobile
+-   No experience with Google Cloud before this hackathon
+-   Learning to use AI tools like Gemini and Zapier from scratch
+
+---
+
+## 🎓 What I Learned
+
+-   Basics of multi-agent system design
+-   Prompt engineering with Gemini
+-   Using Google Cloud & no-code automation
+-   Building AI logic without technical background
+-   That AI can empower creators even in restricted regions
+
+---
+
+## 🔗 Connection to Google Cloud ADK
+
+While I didn’t use the official ADK codebase directly, **TargetBoost AI follows the multi-agent logic promoted by ADK**.
+
+The project simulates three agents using Google tools:
+
+-   **Form Agent**: Input collector
+-   **Sheet Agent**: Data organizer
+-   **Gemini Agent**: Reasoning and decision-maker
+
+All agents interact to mimic a distributed agent system, using no-code AI tools from Google Cloud.
+
+---
+
+## 🌐 Try it
+
+-   📋 [Google Form (Enter your product)](https://forms.gle/138KmV52ESevrVWu8)
+-   📊 [Sheet (training dataset)](https://docs.google.com/spreadsheets/d/1w0leGgsl2ez_-FQwGZPlBbXLYm3MWIz62E6XFjx6Cks/edit?usp=drivesdk)
+-   🌐 [Live Site](https://sites.google.com/view/targetboostai/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9)
+-   💾 [Colab Code](https://colab.research.google.com/drive/1HXRFdO3tDLzANGUF4mV36KkZaoU4tXlf?usp=sharing)
+    (I don't have the video or presentation PDF links, so I removed them)
+
+---
+
+## 🏆 Final Note
+
+Even if I don’t win, I’m proud I finished this project against all odds.
+This proves that with determination, even someone with no tech background, no budget, and no laptop can still create real solutions.
+
+Let this inspire anyone in restricted or underserved regions 🌍
+
+---
+
+## 🧑‍💻 Author
+
+**Amna Mustafa**
+Digital Marketing Learner | AI Enthusiast
+GitHub: [@AmnaIbrahim-AI](https://github.com/AmnaIbrahim-AI)
+Devpost: [TargetBoost AI Submission](https://devpost.com/software/targetboost-ai)
